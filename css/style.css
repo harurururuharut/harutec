@@ -1,0 +1,804 @@
+@media screen and (min-width: 641px){
+
+/* Web用css始まり*/
+body {
+    color: #000000;
+    font-family: "Hiragino Kaku Gothic ProN";
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+}
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dd, ol, ul, form, fieldset, legend, table, th, td, caption, img {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, strong, em, b {
+    font-weight: bold;
+}
+em {
+    font-style: normal;
+}
+ul, ol, li {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+a,a:link,a:hover,a:visited,a:active {
+	color: #000000;
+	text-decoration: none;
+}
+
+
+.slidemenu {
+	display: none;
+}
+
+#header__nav {
+	background-color: rgba(255,255,255,1);
+	width: 100%;
+	top: 0;
+	position: fixed;
+	border-bottom:3px #000000 solid;
+	padding: 10px 0;
+	z-index: 10;
+}
+
+#header__nav ul {
+	position: relative;
+	bottom: 15px;
+	float: right;
+	z-index: 5;
+}
+
+#header__nav ul li {
+	float: left;
+	color: #000000;
+	display: inline-block;
+	margin-right: 30px;
+	margin-top: 30px;
+}
+
+#header__nav a {
+	padding: 5px 0;
+}
+
+
+#header__nav li a:hover {
+	color: #FFFFFF;
+	background-color: #000000;
+	opacity: 0.5;
+	height: 100%;
+	width: 70px;
+}
+
+#header__nav li:last-child a {
+	background-color: rgba(248,205,116,1);
+	height: 100%;
+	width: 100px;
+	border-radius: 15px;
+    padding: 10px 5px;
+    opacity: 1;
+}
+
+#header__nav li:last-child a:hover {
+   background-color: rgba(248,205,116,1);
+   color: #FFFFFF;
+}
+
+.logo{
+	height: 35px;
+}
+
+.header__logo {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+
+#wrap {
+	height: 750px;
+	max-width: 100%;
+	background-image: url(../img/11091217_1567958226819580_1384805224738145652_n.jpg);
+	background-size: cover;
+	margin-top: 75px;
+}
+
+
+.wrap__container {
+	width: 860px;
+	margin: 0 auto;
+	padding-top: 200px;
+}
+
+#wrap h1 {
+	display: block;
+	width: 860px;
+	font-size: 80px;
+	color: #FFFFFF;
+}
+
+#wrap p {
+	display: block;
+	width: 600px;
+	font-size: 30px;
+	color: #FFFFFF;
+}
+
+#section1 {
+	text-align: center;
+	background-color: #f8f8f8;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+
+#section1 h2 {
+	padding: 20px 0 20px 0;
+	color: #30c9e8;
+}
+
+.section1__img1 {
+	width: 80%;
+	margin-top: 0px;
+	padding: 50px;
+}
+
+.section1__img2 {
+	display: none;
+}
+
+#section2 {
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+#section2 h2 {
+	left: 30px;
+	display: block;
+	width: 200px;
+	margin-bottom: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #f8cd74;
+}
+
+#section2 ul {
+	display: table-cell;
+}
+
+#section2 li {
+	float: left;
+	width: 33.3333333333%;
+	overflow: hidden;
+	margin-bottom: -80px;
+}
+
+#section2 li img {
+	background-size: cover;
+	max-height: 100%;
+}
+
+.section2__msg {
+	display: inline-block;
+	width: 100%;
+ 	font-size: 50px;
+	font-family: 'AgendaURWT Med';
+	font-weight: bold;
+	position: relative;
+	bottom: 250px;
+	color: white;
+	opacity: 0.7;
+	z-index: 1;
+}
+
+
+
+#section3 {
+	text-align: center;
+	height: 500px;
+	padding-top: 80px;
+}
+
+
+
+.section3__container {
+	margin: 0 auto;
+	width: 70%;
+}
+
+.section3__box {
+	background-color: #f8cd74;
+	height:200px;
+	width: 200px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+#section3 li {
+	float: left;
+    width: 33%;
+    margin-top: 80px;
+}
+
+#section3 h2 {
+	padding-top: 50px;
+	color: #5faf35;
+}
+
+#section3 h3 {
+	position: relative;
+	top: 50px;
+	font-size: 30px;
+	color:#FFFFFF;
+}
+
+#section4 {
+	background-image: url(../img/type-away-numero-dos.jpg);
+	background-size: cover;
+	height: 700px;
+	padding-top: 80px;
+}
+
+#section4 h2 {
+	color: #FFFFFF;
+	font-size: 30px;
+	padding-top: 20px;
+	margin-left: 50px;
+}
+
+#section4 h3 {
+	color: #FFFFFF;
+	margin-left: 50px;
+}
+
+.section4__txt {
+	padding-top: 50px;
+}
+
+.section4__txt2 {
+	display: inline-block;
+	margin-top: 130px;
+	width: 100px;
+}
+
+.section4__txt3 {
+	display:none;
+}
+.section4__articl a,.section4__articl a:active,.section4__articl a:visited {
+	display: block;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.section4__articl a:hover {
+	display: block;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: rgba(0,0,0,0.7);
+}
+
+.section4__articl {
+	width: 500px;
+	margin-left: 200px;
+	margin-top: -27px;
+}
+
+.job {
+	color: #000000;
+	padding: 20px 15px 0 20px;
+	background-color: #FFFFFF;
+	display: inline-block;
+	height: 50px;
+	width: 150px;
+	opacity: 0.7;
+	border-radius: 30px;
+	font-size: 18px;
+	float: right;
+	margin-top: 50px;
+	margin-right: 50px;
+}
+
+.job:hover {
+	background-color: #FFFFFF;
+	opacity: 1;
+}
+
+
+#section5 img {
+	padding-top: 50px;
+	padding-left: 200px;
+}
+
+.section5__box {
+	width: 500px;
+    height: 300px;
+    float: right;
+    margin-right: 340px;
+    margin-top: 100px;
+}
+
+#triangle{
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top: 20px solid #f8f8f8;
+	border-right: 20px solid #f8f8f8;
+	float: left;
+}
+
+.section5__msg {
+	background-color: #f8f8f8;
+	width: 80%;
+	float: right;
+	border-radius: 0 15px 15px 15px;
+}
+
+#section5 h2 {
+	width: 150px;
+	display: block;
+	margin: 10px auto 0 auto;
+	padding-top: 80px;
+}
+
+#section5 h3 {
+	padding: 30px;
+}
+
+#section5 h4 {
+	display: block;
+	width: 560px;
+	margin: 50px auto;
+	font-size: 20px;
+}
+
+#haruta {
+	cursor: pointer;
+}
+
+.section__sns {
+	width: 100%;
+	height: 60px;
+	text-align: center;
+}
+
+.section__sns a,.section__sns a:hover,.section__sns a:active,.section__sns a:visited{
+	color: #FFFFFF;
+}
+
+.sns-twitter{
+    display: inline-block;
+    margin: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #21bded;
+    color: #fff;
+    font-size: 15px;
+    line-height: 50px;
+    padding-top: 5px;
+}
+
+.sns-twitter:hover {
+	opacity:0.9;
+}
+
+.sns-facebook{
+	display: inline-block;
+    margin: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #4f7fc1;
+    float: right;
+    color: #fff;
+    font-size: 15px;
+    line-height: 50px;
+    padding-top: 5px;
+}
+
+.sns-facebook:hover {
+	opacity: 0.9;
+}
+
+.section__sns i{
+	padding-top: 10px;
+	font-size: 30px;
+}
+
+footer {
+	height: 100px;
+	background-color: #000000;
+}
+
+footer img{
+	display: inline-block;
+	padding-left: 44%;
+	padding-top: 30px;
+}
+
+/* Web用CSS終わり*/}
+
+/* スマホ用CSS始まり*/
+@media screen and (max-width:640px){
+
+body {
+    color: #000000;
+    font-family: "Hiragino Kaku Gothic ProN";
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+}
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dd, ol, ul, form, fieldset, legend, table, th, td, caption, img {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, strong, em, b {
+    font-weight: bold;
+}
+em {
+    font-style: normal;
+}
+ul, ol, li {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+a,a:link,a:hover,a:visited,a:active {
+	color: #000000;
+	text-decoration: none;
+}
+
+#header__nav {
+	border-bottom: 1.5px solid #000000;
+	margin:0;
+	padding:15px 0;
+	width: 100%;
+    background-color: #FFFFFF;
+    position: fixed;
+    z-index: 10;
+}
+
+.slide__btn {
+	display: inline-block;
+	width:20px;
+	margin-left: 5px;
+}
+
+.fa-bars {
+	margin:0;
+	font-size: 18px;
+}
+
+#header__nav a{
+	width: 100px;
+	display: block;
+    margin: -26px auto 0 auto;
+
+}
+
+#header__nav ul {
+	display: none;
+}
+
+.slidecontent {
+	bottom:5px;
+	width: 100px;
+	display: inline-block;
+	position: relative;
+	display: none;
+	font-weight: bold;
+    width: 100%;
+    position: fixed;
+    top: 54px;
+    height: 100px;
+    z-index: 10;
+}
+
+.slidecontent li {
+	background-color: rgba(255,255,255,0.4);
+	border-bottom: 1px solid rgba(0,0,0,0.4);
+	padding: 5px 0;
+}
+
+#wrap {
+	padding-bottom: 100%;
+	max-width: 100%;
+	background-image: url(../img/11091217_1567958226819580_1384805224738145652_n.jpg);
+	background-size: cover; 
+}
+
+.wrap__container {
+	width: 300px;
+	margin: 0 auto;
+	padding-top: 200px;
+}
+
+#wrap h1 {
+	display: block;
+	width: 300px;
+	font-size: 30px;
+	color: #FFFFFF;
+}
+
+#wrap p {
+	display: block;
+	width: 300px;
+	font-size: 15px;
+	color: #FFFFFF;
+}
+
+
+#section1 {
+	text-align: center;
+	background-color: #f8f8f8;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+
+#section1 h2 {
+	padding: 20px 0 20px 0;
+	color: #30c9e8;
+}
+
+.section1__img1 {
+	display: none;
+	z-index:-1;
+}
+
+
+#section2 {
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+#section2 h2 {
+	left: 30px;
+	margin-bottom: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #f8cd74;
+}
+
+#section2 ul {
+	display: table-cell;
+}
+
+#section2 li {
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: -80px;
+}
+
+#section2 li img {
+	background-size: cover;
+	max-height: 100%;
+}
+
+.section2__msg {
+	display: inline-block;
+	width: 100%;
+ 	font-size: 50px;
+	font-family: 'AgendaURWT Med';
+	font-weight: bold;
+	position: relative;
+	bottom: 250px;
+	color: white;
+	opacity: 0.7;
+	z-index: 1;
+}
+
+
+
+#section3 {
+	text-align: center;
+	height: 1000px;
+	padding-top: 80px;
+}
+
+.section3__container {
+	margin: 0 auto;
+	width: 70%;
+}
+
+.section3__box {
+	background-color: #f8cd74;
+	height:180px;
+	width: 180px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+#section3 li {
+    margin-top: 80px;
+}
+
+#section3 h2 {
+	padding-top: 50px;
+	color: #5faf35;
+}
+
+#section3 h3 {
+	position: relative;
+	top: 50px;
+	font-size: 30px;
+	color:#FFFFFF;
+}
+
+#section4 {
+	background-image: url(../img/type-away-numero-dos.jpg);
+	background-size: cover;
+	height: 700px;
+	padding-top: 80px;
+}
+
+#section4 h2 {
+	color: #FFFFFF;
+	font-size: 30px;
+	display: block;
+	width: 130px;
+	margin: 0 auto;
+}
+
+#section4 h3 {
+	color: #FFFFFF;
+	margin-left: 50px;
+	font-size: 14px;
+}
+
+.section4__txt {
+	display: none;
+}
+
+.section4__txt2 {
+	width: 100px;
+}
+
+.section4__txt3 {
+	padding-bottom: 30px;
+	margin-top:  100px;
+}
+
+.section4__articl a,.section4__articl a:active,.section4__articl a:visited {
+	display: block;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
+.section4__articl {
+	padding-top: 10px;
+	width: 80%;
+	margin-left: 41px;
+}
+
+.job {
+	color: #000000;
+	padding: 20px 15px 0 20px;
+	background-color: #FFFFFF;
+	display: block;
+	height: 50px;
+	width: 150px;
+	opacity: 0.7;
+	border-radius: 30px;
+	font-size: 18px;
+	margin: 85px auto 0 auto;
+}
+
+
+#section5 img {
+	padding-top: 50px;
+	padding-left: 60px;
+	height:400px;
+}
+
+.section5__box {
+	width: 300px;
+    height: 300px;
+    margin: 15px auto;
+}
+
+#triangle{
+	display: none;
+}
+
+.section5__msg {
+	background-color: #f8f8f8;
+	width: 80%;
+	float: right;
+	border-radius:15px;
+}
+
+#section5 h2 {
+	width: 150px;
+	display: block;
+	margin: 10px auto 0 auto;
+	padding-top: 80px;
+}
+
+#section5 h3 {
+	padding: 30px;
+	font-size: 14px;
+}
+
+#section5 h4 {
+	display: block;
+	width: 300px;
+	margin: 50px auto;
+	font-size: 20px;
+}
+
+
+.section__sns {
+	width: 100%;
+	height: 60px;
+	text-align: center;
+}
+
+.section__sns a,.section__sns a:hover,.section__sns a:active,.section__sns a:visited{
+	color: #FFFFFF;
+}
+
+.sns-twitter{
+    display: inline-block;
+    margin: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #21bded;
+    color: #fff;
+    font-size: 10px;
+    line-height: 50px;
+    padding-top: 5px;
+}
+
+
+.sns-facebook{
+	display: inline-block;
+    margin: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #4f7fc1;
+    float: right;
+    color: #fff;
+    font-size: 10px;
+    line-height: 50px;
+    padding-top: 5px;
+}
+
+
+
+.section__sns i{
+	padding-top: 10px;
+	font-size: 30px;
+}
+
+footer {
+	height: 50px;
+	background-color: #000000;
+	margin-top: 5px;
+}
+
+footer img{
+	display: block;
+	width: 100px;
+	margin: 5px auto 0 auto;
+	position: relative;
+    top: 14px;
+}
+
+
+/* スマホ用CSS終わり*/}
