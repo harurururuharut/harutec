@@ -43,14 +43,18 @@ $(function(){
   }
 );
 
+
     $('.slide__btn').click(function(){
-      var display = $('.slidecontent').css('display');
-      if( display == ('none') ) {
-      $('.slidecontent').css('display','inline-block');
-  
+        var display = $('.slidecontent').css('display');
+        if( display == ('none') ) {
+        $('.slidecontent').css('display','inline-block');
+        $(this).find('i').removeClass('fa-bars');
+        $(this).find('i').addClass('fa-times');
+    
        } else {
         $('.slidecontent').css('display','none');
-       
+        $(this).find('i').removeClass('fa-times');
+        $(this).find('i').addClass('fa-bars');
        }
    });
 
