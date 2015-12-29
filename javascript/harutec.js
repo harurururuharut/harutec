@@ -55,24 +55,7 @@ $(function(){
    });
 
 
-    var menuHeight = $("#header__nav").height();
-    var startPos = 0;
-    $(window).scroll(function(){
-      var currentPos = $(this).scrollTop();
-      var userAgent = window.navigator.userAgent.toLowerCase();
 
-        if (userAgent.indexOf('ipad') != -1 || userAgent.indexOf('iphone') != -1 || userAgent.indexOf('Android') != -1 ){
-          if (currentPos > startPos) {
-            if($(window).scrollTop() >= 300) {
-              $("#header__nav").css("top", "-100px");
-              $(".slidecontent").css("display","none");
-            }
-          } else {
-            $("#header__nav").css("top", 0 + "px");
-          }
-        }
-          startPos = currentPos;
-    });
 
 
 
