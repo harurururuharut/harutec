@@ -107,6 +107,7 @@ a,a:link,a:hover,a:visited,a:active {
 	height: 750px;
 	max-width: 100%;
 	background-image: url(../img/11091217_1567958226819580_1384805224738145652_n.jpg);
+	background-attachment: fixed;
 	background-size: cover;
 	margin-top: 75px;
 }
