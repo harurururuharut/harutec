@@ -46,33 +46,33 @@ $(function(){
 
         $(".section2__msg1").hover(
       function(){
-        $(".section2__msg1").find("p").css('font-size','17px').css('width','80%');
+        $(".section2__msg1").find("p").css('font-size','17px');
         $(".section2__msg1").find("p").text("私の趣味は旅行です。大学に入って、カンボジアとシンガポールに行きました。世界中のいろんな食事を現地で食べるのが楽しみです。");
       },
       function(){
-        $(".section2__msg1").find("p").css('font-size','50px').css('width','100%');
+        $(".section2__msg1").find("p").css('font-size','50px');
         $(".section2__msg1").find("p").text("TRAVEL");
       }
     );
 
           $(".section2__msg2").hover(
       function(){
-        $(".section2__msg2").find("p").css('font-size','17px').css('width','80%');
+        $(".section2__msg2").find("p").css('font-size','17px');
         $(".section2__msg2").find("p").text("私は大学1年の冬からスターバックスコーヒーでアルバイトを始めました。おすすめのカスタムなど何でも教えちゃいますよ！");
       },
       function(){
-        $(".section2__msg2").find("p").css('font-size','50px').css('width','100%');
+        $(".section2__msg2").find("p").css('font-size','50px');
         $(".section2__msg2").find("p").text("STB");
       }
     );
 
             $(".section2__msg3").hover(
       function(){
-        $(".section2__msg3").find("p").css('font-size','17px').css('width','80%');
-        $(".section2__msg3").find("p").text("でんぱ組の最上モガ推しですwアイドルに興味なかったんですが、友達にライブに誘われてどはまりしちゃいました笑");
+        $(".section2__msg3").find("p").css('font-size','17px');
+        $(".section2__msg3").find("p").text("でんぱ組の最上モガ推しですw元々アイドルには全く興味がなかったんですが、友達にライブに誘われてどはまりしちゃいました笑");
       },
       function(){
-        $(".section2__msg3").find("p").css('font-size','50px').css('width','100%');
+        $(".section2__msg3").find("p").css('font-size','50px');
         $(".section2__msg3").find("p").text("DENPA");
       }
     );
