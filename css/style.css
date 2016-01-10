@@ -195,8 +195,8 @@ a,a:link,a:hover,a:visited,a:active {
 	position: relative;
 	bottom: 250px;
 	color: white;
-	opacity: 0.7;
 	z-index: 1;
+	background-color: rgba(0,0,0,0.5);
 }
 
 
@@ -205,6 +205,7 @@ a,a:link,a:hover,a:visited,a:active {
 	text-align: center;
 	height: 500px;
 	padding-top: 80px;
+	background-color: #f8f8f8;
 }
 
 
@@ -212,6 +213,31 @@ a,a:link,a:hover,a:visited,a:active {
 .section3__container {
 	margin: 0 auto;
 	width: 70%;
+}
+
+.section3__box1 {
+	background-image: url(../works1/img/businesscard_main.png);
+	height:200px;
+	width: 200px;
+	border-radius: 50%;
+	margin: 0 auto;
+	background-size: cover;
+}
+
+.section3__box1--msg{
+	display: none;
+	border-radius: 50%;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.section3__box1--msg p {
+	display: inline-block;
+	height: 30%;
+	margin: 35% 35px;
+	color: #FFFFFF;
+	font-weight: bold;
 }
 
 .section3__box {
@@ -601,6 +627,7 @@ a,a:link,a:hover,a:visited,a:active {
 	color: white;
 	opacity: 0.7;
 	z-index: 1;
+	background-color: rgba(0,0,0,0.5);
 }
 
 
@@ -609,6 +636,7 @@ a,a:link,a:hover,a:visited,a:active {
 	text-align: center;
 	height: 1000px;
 	padding-top: 80px;
+	background-color: #f8f8f8;
 }
 
 .section3__container {
@@ -616,6 +644,31 @@ a,a:link,a:hover,a:visited,a:active {
 	width: 70%;
 }
 
+
+.section3__box1--msg{
+	display: none;
+	border-radius: 50%;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.section3__box1--msg p {
+	display: inline-block;
+	height: 30%;
+	margin: 35% 35px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.section3__box1 {
+	background-image: url(../works1/img/businesscard_main.png);
+	height:200px;
+	width: 200px;
+	border-radius: 50%;
+	margin: 0 auto;
+	background-size: cover;
+}
 .section3__box {
 	background-color: #f8cd74;
 	height:180px;
