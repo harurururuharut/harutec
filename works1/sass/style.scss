@@ -1,0 +1,131 @@
+body {
+    color: #000000;
+    font-family: "Hiragino Kaku Gothic ProN";
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+    background-color: #f8f8f8;
+}
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dd, ol, ul, form, fieldset, legend, table, th, td, caption, img {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, strong, em, b {
+    font-weight: bold;
+}
+em {
+    font-style: normal;
+}
+ul, ol, li {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+a,a:link,a:hover,a:visited,a:active {
+	text-decoration: none;
+}
+
+@media screen and (min-width: 641px){
+.container{
+	margin: 80px auto 0 auto;
+	width: 900px;
+	height: 780px;
+
+		& h2 {
+	    color: inline-black;
+	    font-style: 'Helvetica';
+	    font-weight: bold;
+	    font-size: 30px;
+	    margin-bottom: 30px;
+		}
+
+	}
+
+.work-contents{
+			width: 500px;
+			height:650px;
+			margin: 0 auto;
+
+		& p {
+			margin-bottom: 15px;
+		}
+
+		& ul {
+			display: table-cell;
+		}
+
+		& li {
+			display: inline-block;
+			width: 209px;
+			height: 345px;
+			float: left;
+			margin: 27px 13.5px;
+		}
+	}
+
+.btn{
+	margin: 80px auto;
+	display: block;
+	width: 100px;
+	border-radius: 30px;
+	background-color: rgba(248,205,116,1);
+	color: #FFFFFF;
+	padding: 20px;
+	&:hover{
+		background-color: rgba(248,205,116,0.8);
+		}
+	}
+}
+
+
+@media screen and (max-width:640px){
+	.container{
+	margin: 80px auto 0 auto;
+	width: 90%;
+	text-align: center;
+
+		& h2 {
+	    color: inline-black;
+	    font-style: 'Helvetica';
+	    font-weight: bold;
+	    font-size: 30px;
+	    margin-bottom: 30px;
+		}
+
+	}
+
+.work-contents{
+			width: 80%;
+			margin: 0 auto;
+		& p {
+			margin-bottom: 15px;
+		}
+
+		& li {
+			width: 209px;
+			height: 345px;
+			margin: 40px auto;
+		}
+	}
+
+.btn{
+	margin: 40px auto;
+	display: block;
+	width: 100px;
+	border-radius: 30px;
+	background-color: rgba(248,205,116,1);
+	color: #FFFFFF;
+	padding: 20px;
+	&:hover{
+		background-color: rgba(248,205,116,0.8);
+		}
+	}
+
+}

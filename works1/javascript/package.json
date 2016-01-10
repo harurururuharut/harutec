@@ -1,0 +1,20 @@
+{
+  "name": "gulp_test",
+  "version": "1.0.0",
+  "description": "gulp test prokect",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "compass": "^0.1.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
